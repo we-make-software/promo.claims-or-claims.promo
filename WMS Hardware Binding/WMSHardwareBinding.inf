@@ -1,62 +1,40 @@
-;
-; WMSHardwareBinding.inf
-;
-
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = System ; TODO: specify appropriate Class
-ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Class       = System
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %ManufacturerName%
 CatalogFile = WMSHardwareBinding.cat
-DriverVer   = ; TODO: set DriverVer in stampinf property pages
+DriverVer   = 07/07/2024,1.0.0.0
 PnpLockdown = 1
-
 [DestinationDirs]
-DefaultDestDir = 13
-
+DefaultDestDir = 12
 [SourceDisksNames]
 1 = %DiskName%,,,""
-
 [SourceDisksFiles]
 WMSHardwareBinding.sys = 1,,
-
-;*****************************************
-; Install Section
-;*****************************************
-
 [Manufacturer]
-%ManufacturerName% = Standard,NT$ARCH$.10.0...16299 ; %13% support introduced in build 16299
-
-[Standard.NT$ARCH$.10.0...16299]
-%WMSHardwareBinding.DeviceDesc% = WMSHardwareBinding_Device, Root\WMSHardwareBinding ; TODO: edit hw-id
-
-[WMSHardwareBinding_Device.NT]
+%ManufacturerName% = Standard,NTamd64
+[Standard.NTamd64]
+%WMSHardwareBinding.DeviceDesc% = WMSHardwareBinding_Device, Root\WMSHardwareBinding
+[WMSHardwareBinding_Device.NTamd64]
 CopyFiles = File_Copy
-
 [File_Copy]
 WMSHardwareBinding.sys
-
-;-------------- Service installation
-[WMSHardwareBinding_Device.NT.Services]
-AddService = WMSHardwareBinding,%SPSVCINST_ASSOCSERVICE%, WMSHardwareBinding_Service_Inst
-
-; -------------- WMSHardwareBinding driver install sections
+[WMSHardwareBinding_Device.NTamd64.Services]
+AddService = WMSHardwareBinding, %SPSVCINST_ASSOCSERVICE%, WMSHardwareBinding_Service_Inst
 [WMSHardwareBinding_Service_Inst]
 DisplayName    = %WMSHardwareBinding.SVCDESC%
-ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
-StartType      = 3               ; SERVICE_DEMAND_START
-ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
-ServiceBinary  = %13%\WMSHardwareBinding.sys
-
-[WMSHardwareBinding_Device.NT.Wdf]
+ServiceType    = 1 
+StartType      = 3   
+ErrorControl   = 1   
+ServiceBinary  = %12%\WMSHardwareBinding.sys
+[WMSHardwareBinding_Device.NTamd64.Wdf]
 KmdfService = WMSHardwareBinding, WMSHardwareBinding_wdfsect
-
 [WMSHardwareBinding_wdfsect]
 KmdfLibraryVersion = $KMDFVERSION$
-
 [Strings]
 SPSVCINST_ASSOCSERVICE = 0x00000002
-ManufacturerName = "<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ManufacturerName = "we-make-software.com"
 DiskName = "WMSHardwareBinding Installation Disk"
-WMSHardwareBinding.DeviceDesc = "WMSHardwareBinding Device"
+WMSHardwareBinding.DeviceDesc = "WMSHardwareBinding"
 WMSHardwareBinding.SVCDESC = "WMSHardwareBinding Service"

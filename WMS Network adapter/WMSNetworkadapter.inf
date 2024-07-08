@@ -1,0 +1,41 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Net 
+ClassGuid   = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider    = %ManufacturerName%
+CatalogFile = WMSNetworkadapter.cat
+DriverVer   = 07/07/2024,1.0.0.0
+PnpLockdown = 1
+PnpLockdown = 1
+[DestinationDirs]
+DefaultDestDir = 12
+[SourceDisksNames]
+1 = %DiskName%,,,""
+[SourceDisksFiles]
+WMSHardwareBinding.sys = 1,,
+[Manufacturer]
+%ManufacturerName% = Standard,NTamd64
+[Standard.NTamd64]
+%WMSNetworkadapter.DeviceDesc% = WMSNetworkadapter_Device, Root\WMSNetworkadapter 
+[WMSNetworkadapter_Device.NT]
+CopyFiles = File_Copy
+[File_Copy]
+WMSNetworkadapter.sys
+[WMSNetworkadapter_Device.NT.Services]
+AddService = WMSNetworkadapter,%SPSVCINST_ASSOCSERVICE%, WMSNetworkadapter_Service_Inst
+[WMSNetworkadapter_Service_Inst]
+DisplayName    = %WMSNetworkadapter.SVCDESC%
+ServiceType    = 1            
+StartType      = 3 
+ErrorControl   = 1   
+ServiceBinary  = %12%\WMSNetworkadapter.sys
+[WMSNetworkadapter_Device.NT.Wdf]
+KmdfService = WMSNetworkadapter, WMSNetworkadapter_wdfsect
+[WMSNetworkadapter_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "we-make-software.com"
+DiskName = "WMSNetworkadapter Installation Disk"
+WMSNetworkadapter.DeviceDesc = "WMSNetworkadapter"
+WMSNetworkadapter.SVCDESC = "WMSNetworkadapter Service"

@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Shared\\promo.claims-or-claims.promo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C21568C-9D18-47AD-AD27-0F7025AB68D5}|WMS Network adapter\\WMS Network adapter.vcxproj|C:\\Shared\\promo.claims-or-claims.promo\\WMS Network adapter\\WMSNetworkadapter.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5C21568C-9D18-47AD-AD27-0F7025AB68D5}|WMS Network adapter\\WMS Network adapter.vcxproj|solutionrelative:WMS Network adapter\\WMSNetworkadapter.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C21568C-9D18-47AD-AD27-0F7025AB68D5}|WMS Network adapter\\WMS Network adapter.vcxproj|C:\\Shared\\promo.claims-or-claims.promo\\WMS Network adapter\\.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C21568C-9D18-47AD-AD27-0F7025AB68D5}|WMS Network adapter\\WMS Network adapter.vcxproj|solutionrelative:WMS Network adapter\\.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|C:\\Shared\\promo.claims-or-claims.promo\\WMS Hardware Binding\\.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|solutionrelative:WMS Hardware Binding\\.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".c",
+              "DocumentMoniker": "C:\\Shared\\promo.claims-or-claims.promo\\WMS Hardware Binding\\.c",
+              "RelativeDocumentMoniker": "WMS Hardware Binding\\.c",
+              "ToolTip": "C:\\Shared\\promo.claims-or-claims.promo\\WMS Hardware Binding\\.c",
+              "RelativeToolTip": "WMS Hardware Binding\\.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-08T16:14:40.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".c",
+              "DocumentMoniker": "C:\\Shared\\promo.claims-or-claims.promo\\WMS Network adapter\\.c",
+              "RelativeDocumentMoniker": "WMS Network adapter\\.c",
+              "ToolTip": "C:\\Shared\\promo.claims-or-claims.promo\\WMS Network adapter\\.c",
+              "RelativeToolTip": "WMS Network adapter\\.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-08T16:14:37.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WMSNetworkadapter.inf",
+              "DocumentMoniker": "C:\\Shared\\promo.claims-or-claims.promo\\WMS Network adapter\\WMSNetworkadapter.inf",
+              "RelativeDocumentMoniker": "WMS Network adapter\\WMSNetworkadapter.inf",
+              "ToolTip": "C:\\Shared\\promo.claims-or-claims.promo\\WMS Network adapter\\WMSNetworkadapter.inf",
+              "RelativeToolTip": "WMS Network adapter\\WMSNetworkadapter.inf",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
+              "WhenOpened": "2024-07-08T16:11:06.965Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

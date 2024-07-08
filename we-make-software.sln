@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMS Hardware Binding", "WMS Hardware Binding\WMS Hardware Binding.vcxproj", "{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMS Network adapter", "WMS Network adapter\WMS Network adapter.vcxproj", "{5C21568C-9D18-47AD-AD27-0F7025AB68D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -13,18 +15,30 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|ARM64.Build.0 = Debug|ARM64
-		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|ARM64.ActiveCfg = Debug|x64
+		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|ARM64.Build.0 = Debug|x64
+		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|ARM64.Deploy.0 = Debug|x64
 		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|x64.ActiveCfg = Debug|x64
 		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|x64.Build.0 = Debug|x64
 		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Debug|x64.Deploy.0 = Debug|x64
-		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|ARM64.ActiveCfg = Release|ARM64
-		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|ARM64.Build.0 = Release|ARM64
-		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|ARM64.Deploy.0 = Release|ARM64
+		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|ARM64.ActiveCfg = Release|x64
+		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|ARM64.Build.0 = Release|x64
+		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|ARM64.Deploy.0 = Release|x64
 		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|x64.ActiveCfg = Release|x64
 		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|x64.Build.0 = Release|x64
 		{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}.Release|x64.Deploy.0 = Release|x64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Debug|ARM64.Build.0 = Debug|ARM64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Debug|x64.ActiveCfg = Debug|x64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Debug|x64.Build.0 = Debug|x64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Debug|x64.Deploy.0 = Debug|x64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Release|ARM64.ActiveCfg = Release|ARM64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Release|ARM64.Build.0 = Release|ARM64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Release|ARM64.Deploy.0 = Release|ARM64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Release|x64.ActiveCfg = Release|x64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Release|x64.Build.0 = Release|x64
+		{5C21568C-9D18-47AD-AD27-0F7025AB68D5}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
