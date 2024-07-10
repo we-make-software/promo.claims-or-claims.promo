@@ -1,0 +1,23 @@
+﻿  Building 'WMS Network adapters' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\WMSNetworkadapters.inf
+  Stamping [Version] section with DriverVer=07/10/2024,14.3.46.652
+  .c
+  WMS Network adapters.vcxproj -> C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMSNetworkadapters.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMSNetworkadapters.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMS Network adapters\wmsnetworkadapters.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMS Network adapters\wmsnetworkadapters.cat
+  
