@@ -42,10 +42,10 @@ SOFTWARE.
 
 ## Community
 
-Join our community on [Facebook](https://www.facebook.com/groups/1469853963642884/) to engage in discussions, share ideas, and collaborate on C projects.
+Join our community on [Facebook](www.facebook.com/groups/promoclaimsorclaimspromo/) to engage in discussions, share ideas, and collaborate on C projects.
 
 ## Contact
 
-For questions or suggestions about the project, feel free to contact us through our [Facebook group](https://www.facebook.com/groups/1469853963642884/).
+For questions or suggestions about the project, feel free to contact us through our [Facebook group](www.facebook.com/groups/promoclaimsorclaimspromo/).
 
 Thank you for your interest in we-make-software.com! Happy coding!
