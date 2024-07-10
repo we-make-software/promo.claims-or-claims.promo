@@ -1,6 +1,3 @@
-I apologize for the confusion. Let's revise the license section with specific placeholders:
-
-```markdown
 # Welcome to we-make-software.com
 
 Welcome to the we-make-software.com project repository on GitHub! This platform is dedicated to hosting open-source projects primarily developed in C. Our goal is to foster collaboration, showcase software development processes, and encourage learning among contributors.
@@ -21,7 +18,6 @@ This project is licensed under the MIT License. See the details below for licens
 
 ### MIT License
 
-```
 MIT License
 
 Copyright (c) 2024 we-make-software.com
@@ -43,7 +39,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
 ## Community
 
@@ -53,16 +48,4 @@ Join our community on [Facebook](https://www.facebook.com/groups/146985396364288
 
 For questions or suggestions about the project, feel free to contact us through our [Facebook group](https://www.facebook.com/groups/1469853963642884/).
 
----
-
 Thank you for your interest in we-make-software.com! Happy coding!
-```
-
-### Instructions:
-
-1. **Save and use:**
-   - Save this Markdown content as `README.md` in the root directory of your "we-make-software.com" project.
-   - Ensure all links are correctly pointing to your desired destinations, especially the Facebook group.
-   - Commit and push the `README.md` file to your GitHub repository to update it.
-
-This updated README.md template now includes a specific copyright year (2024) and project name ("we-make-software.com") in the license section, as per your requirements. Adjust any specifics or formatting as necessary for your project.
