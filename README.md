@@ -10,7 +10,6 @@ we-make-software.com provides a platform for developers to collaborate on open-s
 
 - **Collaboration:** Engage with fellow developers on C-based open-source projects.
 - **Learning:** Explore best practices and techniques in C programming.
-- **Certum Code Signing:** Secure your contributions with Certum Open-Source Code Signing.
 
 ## License
 
@@ -42,10 +41,10 @@ SOFTWARE.
 
 ## Community
 
-Join our community on [Facebook](www.facebook.com/groups/promoclaimsorclaimspromo/) to engage in discussions, share ideas, and collaborate on C projects.
+Join our community on [Facebook](https://www.facebook.com/groups/promoclaimsorclaimspromo/) to engage in discussions, share ideas, and collaborate on C projects.
 
 ## Contact
 
-For questions or suggestions about the project, feel free to contact us through our [Facebook group](www.facebook.com/groups/promoclaimsorclaimspromo/).
+For questions or suggestions about the project, feel free to contact us through our [Facebook group](https://www.facebook.com/groups/promoclaimsorclaimspromo/).
 
 Thank you for your interest in we-make-software.com! Happy coding!
