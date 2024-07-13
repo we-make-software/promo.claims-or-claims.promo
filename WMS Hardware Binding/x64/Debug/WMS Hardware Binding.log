@@ -1,6 +1,6 @@
 ﻿  Building 'WMS Hardware Binding' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSHardwareBinding.inf
-  Stamping [Version] section with DriverVer=07/13/2024,6.46.11.712
+  Stamping [Version] section with DriverVer=07/13/2024,10.50.49.960
   .c
   WMS Hardware Binding.vcxproj -> C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMSHardwareBinding.sys
   Done Adding Additional Store

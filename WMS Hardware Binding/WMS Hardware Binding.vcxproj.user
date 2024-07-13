@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TestCertificate>CN=we-make-software | 777C593DBB2F666B35E5B120B25FFC89DA60F86C</TestCertificate>
+    <TestCertificate>C:\WeMakeSoftwareDev.cer</TestCertificate>
   </PropertyGroup>
 </Project>

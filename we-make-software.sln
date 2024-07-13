@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMS Hardware Binding", "WMS Hardware Binding\WMS Hardware Binding.vcxproj", "{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}"
+	ProjectSection(SolutionItems) = preProject
+		Create-Cert.ps1 = Create-Cert.ps1
+		Import-Cert.ps1 = Import-Cert.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
