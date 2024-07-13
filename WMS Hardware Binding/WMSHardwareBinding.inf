@@ -4,7 +4,7 @@ Class       = System
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %ManufacturerName%
 CatalogFile = WMSHardwareBinding.cat
-DriverVer   = 07/07/2024,1.0.0.0
+DriverVer   = 07/07/2024,1.0.0.2
 PnpLockdown = 1
 [DestinationDirs]
 DefaultDestDir = 12
@@ -15,7 +15,7 @@ WMSHardwareBinding.sys = 1,,
 [Manufacturer]
 %ManufacturerName% = Standard,NTamd64
 [Standard.NTamd64]
-%WMSHardwareBinding.DeviceDesc% = WMSHardwareBinding_Device, Root\WMSHardwareBinding
+%WMSHardwareBinding.DeviceDesc% = WMSHardwareBinding_Device, Root\WMS
 [WMSHardwareBinding_Device.NTamd64]
 CopyFiles = File_Copy
 [File_Copy]

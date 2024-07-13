@@ -1,10 +1,10 @@
 ﻿  Building 'WMS Hardware Binding' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSHardwareBinding.inf
-  Stamping [Version] section with DriverVer=07/08/2024,10.8.29.841
+  Stamping [Version] section with DriverVer=07/13/2024,6.46.11.712
   .c
-  WMS Hardware Binding.vcxproj -> C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMSHardwareBinding.sys
+  WMS Hardware Binding.vcxproj -> C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMSHardwareBinding.sys
   Done Adding Additional Store
-  Successfully signed: C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMSHardwareBinding.sys
+  Successfully signed: C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMSHardwareBinding.sys
   
   Driver is 'Universal'.
   ........................
@@ -17,7 +17,7 @@
   None
   
   Catalog generation complete.
-  C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMS Hardware Binding\wmshardwarebinding.cat
+  C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMS Hardware Binding\wmshardwarebinding.cat
   Done Adding Additional Store
-  Successfully signed: C:\Shared\promo.claims-or-claims.promo\x64\Debug\WMS Hardware Binding\wmshardwarebinding.cat
+  Successfully signed: C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMS Hardware Binding\wmshardwarebinding.cat
   
