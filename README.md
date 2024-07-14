@@ -4,7 +4,7 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 1: Understanding WDF Development](https://www.facebook.com/share/p/StRA3FKjebzdCWTd/)
 
-## [LESSON 2: DRIVERENTRY AND REGISTRY](https://www.facebook.com/share/p/7x2f6caEv7hHCjbz/)
+## [LESSON 2: DRIVERENTRY](https://www.facebook.com/share/p/7x2f6caEv7hHCjbz/)
 
 ## [LESSON 3: TRACING](https://www.facebook.com/share/p/tpfY4taE6JvVkYMb/)
 
