@@ -55,11 +55,19 @@
     <TargetVersion>Windows10</TargetVersion>
     <UseDebugLibraries>true</UseDebugLibraries>
     <UMDF_VERSION_MAJOR>2</UMDF_VERSION_MAJOR>
+    <_NT_TARGET_VERSION>0xA000010</_NT_TARGET_VERSION>
+    <ValidationVersion>10.0.26100</ValidationVersion>
+    <UMDF_VERSION_MINOR>33</UMDF_VERSION_MINOR>
+    <UMDF_MINIMUM_VERSION_REQUIRED>33</UMDF_MINIMUM_VERSION_REQUIRED>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <TargetVersion>Windows10</TargetVersion>
     <UseDebugLibraries>false</UseDebugLibraries>
     <UMDF_VERSION_MAJOR>2</UMDF_VERSION_MAJOR>
+    <_NT_TARGET_VERSION>0xA000010</_NT_TARGET_VERSION>
+    <ValidationVersion>10.0.26100</ValidationVersion>
+    <UMDF_VERSION_MINOR>33</UMDF_VERSION_MINOR>
+    <UMDF_MINIMUM_VERSION_REQUIRED>33</UMDF_MINIMUM_VERSION_REQUIRED>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <TargetVersion>Windows10</TargetVersion>
@@ -95,11 +103,23 @@
     <DriverSign>
       <FileDigestAlgorithm>sha256</FileDigestAlgorithm>
     </DriverSign>
+    <ClCompile>
+      <WppEnabled>true</WppEnabled>
+      <WppAddControlGUID>
+      </WppAddControlGUID>
+      <WppRecorderEnabled>
+      </WppRecorderEnabled>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <DriverSign>
       <FileDigestAlgorithm>sha256</FileDigestAlgorithm>
     </DriverSign>
+    <ClCompile>
+      <WppEnabled>true</WppEnabled>
+      <WppAddControlGUID>
+      </WppAddControlGUID>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <DriverSign>
@@ -113,6 +133,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <FilesToPackage Include="$(TargetPath)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

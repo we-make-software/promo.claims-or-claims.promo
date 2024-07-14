@@ -2,6 +2,12 @@
 
 Welcome to the we-make-software.com project repository on GitHub! This platform is dedicated to hosting open-source projects primarily developed in C. Our goal is to foster collaboration, showcase software development processes, and encourage learning among contributors.
 
+## [Lesson 1: Understanding WDF Development](https://www.facebook.com/share/p/StRA3FKjebzdCWTd/)
+
+## [LESSON 2: DRIVERENTRY AND REGISTRY](https://www.facebook.com/share/p/7x2f6caEv7hHCjbz/)
+
+## [LESSON 3: TRACING](https://www.facebook.com/share/p/tpfY4taE6JvVkYMb/)
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
