@@ -26,9 +26,10 @@ NTSTATUS DriverEntry(
     WDF_OBJECT_ATTRIBUTES attributes;
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.EvtCleanupCallback = EvtDriverContextCleanup;
-
     WDFDRIVER driver;
     WdfDriverCreate(DriverObject, RegistryPath, &attributes, &config, &driver);
     WPP_INIT_TRACING(RegistryPath->Buffer);
+    DoTraceMessage(TRACE_LEVEL_INFORMATION, "Driver loaded successfully.");
+    DoTraceMessage(TRACE_LEVEL_ERROR, "This is an error message.");
     return STATUS_SUCCESS;
 }

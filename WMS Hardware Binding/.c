@@ -14,13 +14,17 @@
     (WPP_LEVEL_ENABLED(flag) && WPP_CONTROL(WPP_BIT_ ## flag).Level >= level)
 #include ".tmh"
 
+NTSTATUS EvtWdfDriverDeviceAdd(_In_ WDFDRIVER Driver, _Inout_ PWDFDEVICE_INIT DeviceInit) {
+
+    return STATUS_SUCCESS;
+}
 VOID EvtDriverCleanup(_In_ WDFOBJECT DriverObject) {
     WPP_CLEANUP(WdfDriverWdmGetDriverObject((WDFDRIVER)DriverObject));
 }
 DRIVER_INITIALIZE DriverEntry;
 NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING RegistryPath) {
     WDF_DRIVER_CONFIG config;
-    WDF_DRIVER_CONFIG_INIT(&config, WDF_NO_EVENT_CALLBACK);
+    WDF_DRIVER_CONFIG_INIT(&config, EvtWdfDriverDeviceAdd);
     WDF_OBJECT_ATTRIBUTES attributes;
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.EvtCleanupCallback = EvtDriverCleanup;
