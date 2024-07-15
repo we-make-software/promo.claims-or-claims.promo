@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|solutionrelative:WMS Hardware Binding\\.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Hardware Binding\\WMSHardwareBinding.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|solutionrelative:WMS Hardware Binding\\WMSHardwareBinding.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A00FF03-E638-466E-A7A1-7AE89FBB3082}|WMS Software Binding\\WMS Software Binding.vcxproj|C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Software Binding\\.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A00FF03-E638-466E-A7A1-7AE89FBB3082}|WMS Software Binding\\WMS Software Binding.vcxproj|solutionrelative:WMS Software Binding\\.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Hardware Binding\\WMSHardwareBinding.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3FBA8C8A-BF76-4D18-939D-20D1AAE81042}|WMS Hardware Binding\\WMS Hardware Binding.vcxproj|solutionrelative:WMS Hardware Binding\\WMSHardwareBinding.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,29 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": ".cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Software Binding\\.cpp",
               "RelativeDocumentMoniker": "WMS Software Binding\\.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Software Binding\\.cpp",
               "RelativeToolTip": "WMS Software Binding\\.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "OverriddenGroupName": "WMS Software Binding",
               "WhenOpened": "2024-07-14T06:30:45.062Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -58,14 +51,18 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-07-15T14:27:23.917Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WMSHardwareBinding.inf",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Hardware Binding\\WMSHardwareBinding.inf",
               "RelativeDocumentMoniker": "WMS Hardware Binding\\WMSHardwareBinding.inf",
@@ -104,7 +101,7 @@
               "RelativeDocumentMoniker": "WMS Hardware Binding\\.c",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Hardware Binding\\.c",
               "RelativeToolTip": "WMS Hardware Binding\\.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-14T11:54:17.332Z",
               "EditorCaption": ""
