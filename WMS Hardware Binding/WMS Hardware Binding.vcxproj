@@ -70,6 +70,7 @@
       </WppAddControlGUID>
       <WppRecorderEnabled>
       </WppRecorderEnabled>
+      <WppMinimalRebuildFromTracking>false</WppMinimalRebuildFromTracking>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
