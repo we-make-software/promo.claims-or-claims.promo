@@ -18,6 +18,8 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ### [LESSON 5.3: DriverInitFlags](https://www.facebook.com/share/p/tMnD5FHGLC4N17fL/)
 
+## [LESSON 6: WDF_OBJECT_ATTRIBUTES](https://www.facebook.com/share/p/xZwF8o3ZW9bgff3r/)
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
