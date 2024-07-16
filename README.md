@@ -6,6 +6,10 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 2: DRIVERENTRY](https://www.facebook.com/share/p/7x2f6caEv7hHCjbz/)
 
+### [LESSON 2.1: GOODBYE PDRIVER_OBJECT](https://www.facebook.com/share/p/id8vmWV2dRH2Pdqx/)
+
+### [LESSON 2.2: PUNICODE_STRING RegistryPath - Good Old Friend](https://www.facebook.com/share/p/iZcx8jyfi7KweDw9/)
+
 ## [LESSON 3: TRACING](https://www.facebook.com/share/p/tpfY4taE6JvVkYMb/)
 
 ## [LESSON 4: KMDF - EVT_WDF_DRIVER_DEVICE_ADD](https://www.facebook.com/share/p/h8A9rRCYshGzAAUT/)
