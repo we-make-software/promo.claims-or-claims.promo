@@ -16,6 +16,8 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ### [LESSON 5.2: EVTDRIVERUNLOAD](https://www.facebook.com/share/p/jzWZFe8iRxCAJS6R/)
 
+#### [LESSON 5.2.1: WDFDRIVER](https://www.facebook.com/share/p/9Vim2ke2YujJAztE/)
+
 ### [LESSON 5.3: DriverInitFlags](https://www.facebook.com/share/p/tMnD5FHGLC4N17fL/)
 
 ## [LESSON 6: WDF_OBJECT_ATTRIBUTES](https://www.facebook.com/share/p/xZwF8o3ZW9bgff3r/)

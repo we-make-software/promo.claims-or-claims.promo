@@ -36,11 +36,12 @@
               "RelativeDocumentMoniker": "WMS Software Binding\\.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Software Binding\\.cpp",
               "RelativeToolTip": "WMS Software Binding\\.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "OverriddenGroupName": "WMS Software Binding",
               "WhenOpened": "2024-07-14T06:30:45.062Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -50,7 +51,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-07-15T14:27:23.917Z",
               "EditorCaption": ""
@@ -80,9 +81,9 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "c4988f09-8443-49d2-bb08-55437364f005",
-        "Display": 0,
-        "X": 307,
-        "Y": 190,
+        "Display": 2,
+        "X": 62,
+        "Y": 81,
         "Width": 1578,
         "Height": 792,
         "WindowState": 0
@@ -100,7 +101,7 @@
               "RelativeDocumentMoniker": "WMS Hardware Binding\\.c",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\promo.claims-or-claims.promo\\WMS Hardware Binding\\.c",
               "RelativeToolTip": "WMS Hardware Binding\\.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-14T11:54:17.332Z",
               "EditorCaption": ""
