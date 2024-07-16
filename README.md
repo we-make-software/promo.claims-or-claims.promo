@@ -26,6 +26,12 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 #### [LESSON 6.1.1: WDFOBJECT](https://www.facebook.com/share/p/2zTJzviUEZKuHJv6/)
 
+### [LESSON 6.2: PFN_WDF_OBJECT_CONTEXT_DESTROY](https://www.facebook.com/share/p/5HoYmT44GXndxKxH/)
+
+#### [LESSON 6.2.1: WDFOBJECT](https://www.facebook.com/share/p/BYX9cDFs3YKyXHBH/)
+
+### [LESSON 7: WDFDRIVER](https://www.facebook.com/share/p/VEqZ95VSSMKV9cci/)
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
