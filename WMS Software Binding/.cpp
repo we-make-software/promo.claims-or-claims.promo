@@ -1,7 +1,7 @@
 #include <Windows.h>
 #include <wdf.h>
 
-VOID EvtDriverContextCleanup(_In_ WDFOBJECT DriverObject) {
+VOID EvtCleanupCallback(_In_ WDFOBJECT DriverObject) {
     UNREFERENCED_PARAMETER(DriverObject);
 }
 VOID EvtDriverUnload(_In_ WDFDRIVER Driver) {
@@ -13,7 +13,7 @@ extern "C" NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject,_In_ PUNICODE_S
     config.EvtDriverUnload = EvtDriverUnload;
     WDF_OBJECT_ATTRIBUTES attributes;
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
-    attributes.EvtCleanupCallback = EvtDriverContextCleanup;
+    attributes.EvtCleanupCallback = EvtCleanupCallback;
     WDFDRIVER driver;
     WdfDriverCreate(DriverObject, RegistryPath, &attributes, &config, &driver);
     //DoTraceMessage(TRACE_LEVEL_INFORMATION, "Driver loaded successfully.");

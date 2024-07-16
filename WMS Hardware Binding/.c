@@ -6,7 +6,7 @@ NTSTATUS EvtWdfDriverDeviceAdd(_In_ WDFDRIVER Driver, _Inout_ PWDFDEVICE_INIT De
 
     return STATUS_SUCCESS;
 }
-VOID EvtDriverCleanup(_In_ WDFOBJECT DriverObject) {
+VOID EvtCleanupCallback(_In_ WDFOBJECT DriverObject) {
     UNREFERENCED_PARAMETER(DriverObject);
 }
 VOID EvtDriverUnload(_In_ WDFDRIVER Driver) {
@@ -20,7 +20,7 @@ NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING Regi
 
     WDF_OBJECT_ATTRIBUTES attributes;
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
-    attributes.EvtCleanupCallback = EvtDriverCleanup;
+    attributes.EvtCleanupCallback = EvtCleanupCallback;
     WDFDRIVER driver;
     WdfDriverCreate(DriverObject, RegistryPath, &attributes, &config, &driver);
     return STATUS_SUCCESS;
