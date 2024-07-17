@@ -38,6 +38,10 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 8: NTSTATUS](https://www.facebook.com/share/p/QdcpQ5tQnoadQmsu/)
 
+## [LESSON 9: UMDF Header](https://www.facebook.com/share/p/ZHwaNa7YXbrjyPh6/)
+
+## [LESSON 10: KMDF Header](https://www.facebook.com/share/p/VtdFgpx6fThhhsKS/)
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
