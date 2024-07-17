@@ -10,6 +10,10 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ### [LESSON 2.2: PUNICODE_STRING RegistryPath - Good Old Friend](https://www.facebook.com/share/p/iZcx8jyfi7KweDw9/)
 
+### [LESSON 2.3: WdfDriverCreate](https://www.facebook.com/share/p/6y53Foae6VviLG8R/)
+
+### [LESSON 2.4: extern "C" in UMDF](https://www.facebook.com/share/p/UsirSBFyokajNbrQ/)
+
 ## [LESSON 3: TRACING](https://www.facebook.com/share/p/tpfY4taE6JvVkYMb/)
 
 ## [LESSON 4: KMDF - EVT_WDF_DRIVER_DEVICE_ADD](https://www.facebook.com/share/p/h8A9rRCYshGzAAUT/)

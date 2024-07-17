@@ -1,6 +1,6 @@
 ﻿  Building 'WMS Software Binding' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSSoftwareBinding.inf
-  Stamping [Version] section with DriverVer=07/16/2024,11.19.16.602
+  Stamping [Version] section with DriverVer=07/17/2024,14.34.32.81
   .cpp
      Creating library C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMSSoftwareBinding.lib and object C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMSSoftwareBinding.exp
   WMS Software Binding.vcxproj -> C:\Users\Administrator\Documents\GitHub\promo.claims-or-claims.promo\x64\Debug\WMSSoftwareBinding.dll
