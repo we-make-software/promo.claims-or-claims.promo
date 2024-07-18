@@ -50,6 +50,18 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
 
+
+## WMS Operating System Connection
+
+"WMS Operating System Connection" is a UMDF2 (User-Mode Driver Framework version 2) project designed to interface with the operating system. 
+The project is developed under the acronym "WMS," which stands for "We Make Software." 
+This driver operates in user mode, providing enhanced system stability and security by isolating driver operations from the kernel mode.
+
+## WMS System
+
+"WMS System" is a Kernel-Mode Driver Framework (KMDF) project designed to provide efficient and reliable communication with the Windows Operating System. 
+This driver operates in kernel mode, enabling it to perform high-performance and low-level operations.
+
 ### Features
 
 - **Collaboration:** Engage with fellow developers on C-based open-source projects.
