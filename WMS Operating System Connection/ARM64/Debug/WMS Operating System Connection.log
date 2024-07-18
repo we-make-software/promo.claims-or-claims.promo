@@ -1,0 +1,26 @@
+﻿  Building 'WMS Operating System Connection' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
+  Stamping ARM64\Debug\WMSOperatingSystemConnection.inf
+  Stamping [Version] section with DriverVer=07/18/2024,22.11.40.796
+  .cpp
+     Creating library D:\promo.claims-or-claims.promo\ARM64\Debug\WMSOperatingSystemConnection.lib and object D:\promo.claims-or-claims.promo\ARM64\Debug\WMSOperatingSystemConnection.exp
+  Generating code
+  Finished generating code
+  WMS Operating System Connection.vcxproj -> D:\promo.claims-or-claims.promo\ARM64\Debug\WMSOperatingSystemConnection.dll
+  Done Adding Additional Store
+  Successfully signed: D:\promo.claims-or-claims.promo\ARM64\Debug\WMSOperatingSystemConnection.dll
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\promo.claims-or-claims.promo\ARM64\Debug\WMS Operating System Connection\wmsoperatingsystemconnection.cat
+  Done Adding Additional Store
+  Successfully signed: D:\promo.claims-or-claims.promo\ARM64\Debug\WMS Operating System Connection\wmsoperatingsystemconnection.cat
+  

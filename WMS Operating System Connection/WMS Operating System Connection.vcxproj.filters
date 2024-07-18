@@ -22,5 +22,10 @@
     <Inf Include="WMSOperatingSystemConnection.inf">
       <Filter>Driver Files</Filter>
     </Inf>
-  </ItemGroup>  
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

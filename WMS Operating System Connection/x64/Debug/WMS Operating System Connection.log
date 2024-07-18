@@ -1,0 +1,5 @@
+﻿  Building 'WMS Operating System Connection' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\WMSOperatingSystemConnection.inf
+  Stamping [Version] section with DriverVer=07/18/2024,22.30.32.723
+D:\promo.claims-or-claims.promo\WMS Operating System Connection\WMSOperatingSystemConnection.inf : error 1199: The syntax 'DIRID 13 (CopyFiles)' was introduced in OS version 10.0.16299, but DDInstall sections utilizing the syntax will install on earlier OS versions. Those DDInstall sections should be restricted to only install on 10.0.16299 or higher using a TargetOSVersion decoration.
+D:\promo.claims-or-claims.promo\WMS Operating System Connection\WMSOperatingSystemConnection.inf : error 1199: The syntax 'DIRID 13 (UMDF)' was introduced in OS version 10.0.17134, but DDInstall sections utilizing the syntax will install on earlier OS versions. Those DDInstall sections should be restricted to only install on 10.0.17134 or higher using a TargetOSVersion decoration.

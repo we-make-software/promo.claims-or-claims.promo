@@ -46,6 +46,9 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 10: KMDF Header](https://www.facebook.com/share/p/VtdFgpx6fThhhsKS/)
 
+## [LESSON 11: INF](https://www.facebook.com/share/p/zNhHffC9fUKeVprX/)
+
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
