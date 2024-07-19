@@ -46,7 +46,47 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 10: KMDF Header](https://www.facebook.com/share/p/VtdFgpx6fThhhsKS/)
 
-## [LESSON 11: INF](https://www.facebook.com/share/p/zNhHffC9fUKeVprX/)
+## [LESSON 11: INF]
+
+In Lesson 11 of our Informatics (INF) course, we delve into the essential frameworks for Windows driver development: UMDF (User-Mode Driver Framework) and KMDF (Kernel-Mode Driver Framework). 
+
+This lesson covers the basics of these frameworks, how they operate, and their importance in developing reliable and efficient drivers.
+We'll explore key concepts such as user-mode and kernel-mode operations, driver models, and the advantages of using UMDF and KMDF. 
+
+By the end of this lesson, you'll have a solid understanding of driver development fundamentals and be ready to apply these frameworks in real-world scenarios. Stay tuned for more exciting insights into the world of Informatics!
+
+Sure, here is the corrected and clearer version of your text:
+
+## [LESSON 11.1: INF(Version)]
+A member asked me to make it easier to understand.
+
+This [link](https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk) is the easiest way to start creating KMDF and UMDF drivers.
+
+First, we create two empty projects named "WMS Operating System Connection" as UMDF2 and "WMS System" as KMDF.
+
+Delete the default content inside each INF file.
+
+We are going to rewrite the content of these INF files so we understand them better.
+
+When Windows begins an installation, it will look inside the INF file. First, it looks for the version information, so we need to include the [Version] section at the beginning of the INF file. 
+After that, we need to provide some properties
+ 
+ ## [LESSON 11.2: INF(Version.Signature)]
+The first property is `Signature`. There are two options: `$Windows NT$` and `$Chicago$`.
+
+By default, Windows uses `$Windows NT$`. 
+
+I’m not sure why Microsoft chose this, but it has become the standard. 
+
+Here’s what the INF file will look like with the `$Windows NT$` property:
+
+```inf
+[Version]
+Signature = "$Windows NT$"
+```
+
+
+
 
 
 ## Overview
