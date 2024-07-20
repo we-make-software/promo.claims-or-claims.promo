@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\promo.claims-or-claims.promo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|Solution Items{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|D:\\promo.claims-or-claims.promo\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|Solution Items{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|solutionrelative:WMS Operating System Connection\\WMSOperatingSystemConnection.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|Solution Items{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|D:\\promo.claims-or-claims.promo\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|Solution Items{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15509FB2-A016-4F14-AE73-A8B63053649B}|WMS System\\WMS System.vcxproj|D:\\promo.claims-or-claims.promo\\WMS System\\WMSSystem.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -36,7 +36,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\promo.claims-or-claims.promo\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAADEAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAFoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-07-18T20:37:38.067Z",
               "EditorCaption": ""
@@ -67,21 +67,23 @@
               "RelativeDocumentMoniker": "WMS System\\WMSSystem.inf",
               "ToolTip": "D:\\promo.claims-or-claims.promo\\WMS System\\WMSSystem.inf",
               "RelativeToolTip": "WMS System\\WMSSystem.inf",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
-              "WhenOpened": "2024-07-18T20:31:10.261Z"
+              "WhenOpened": "2024-07-18T20:31:10.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WMSOperatingSystemConnection.inf",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
               "RelativeDocumentMoniker": "WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
               "ToolTip": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
               "RelativeToolTip": "WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
-              "WhenOpened": "2024-07-18T20:30:22.183Z"
+              "WhenOpened": "2024-07-18T20:30:22.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,7 +95,8 @@
               "RelativeToolTip": "WMS Operating System Connection\\.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T19:59:36.325Z"
+              "WhenOpened": "2024-07-18T19:59:36.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,7 +108,8 @@
               "RelativeToolTip": "WMS System\\.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-18T19:58:15.039Z"
+              "WhenOpened": "2024-07-18T19:58:15.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

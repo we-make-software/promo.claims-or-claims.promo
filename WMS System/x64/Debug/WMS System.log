@@ -1,6 +1,4 @@
 ﻿  Building 'WMS System' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSSystem.inf
-  Stamping [Version] section with DriverVer=07/20/2024,7.46.3.382
-  .c
-WdfDriverEntry.lib(stub.obj) : error LNK2019: unresolved external symbol DriverEntry referenced in function FxDriverEntryWorker
-D:\promo.claims-or-claims.promo\x64\Debug\WMSSystem.sys : fatal error LNK1120: 1 unresolved externals
+  Stamping [Version] section with DriverVer=07/20/2024,12.47.27.30
+D:\promo.claims-or-claims.promo\WMS System\WMSSystem.inf : error 1297: Device driver does not install on any devices, use primitive driver if this is intended.

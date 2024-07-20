@@ -1,12 +1,17 @@
 [Version]
 Signature="$Windows NT$"
-Class= System 
+Class=System
 ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider="we-make-software.com"
 CatalogFile=WMSSystem.cat
-DriverVer = 07/20/2024,7.46.3.382
-PnpLockDown = 1
+DriverVer = 07/20/2024,12.47.27.30
+PnpLockDown=1
 [SourceDisksNames]
 1 = "WMS System",,, "wms"
 [SourceDisksFiles]
-WMSSystem.dll=1
+WMSSystem.sys=1
+[Manufacturer]
+%ManufacturerName% = ModelsSection.NTamd64_10.0.26100.0
+
+[Strings]
+ManufacturerName = "we-make-software.com

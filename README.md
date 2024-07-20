@@ -58,7 +58,7 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ##  [LESSON 11.6: INF (Version.PnpLockDown)](https://www.facebook.com/share/p/AZmDveoQyGGTcMHg/)
 
-### [LESSON 11.7: INF (SourceDisksNames)]
+### [LESSON 11.7: INF (SourceDisksNames)](https://www.facebook.com/share/p/PFKU5WEYHaRzX1NB/)
 
 ## [LESSON 12: InfVerif](https://www.facebook.com/share/p/8MRP1BRPb1ewkTXE/)
 
@@ -66,7 +66,29 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 11.9:  [Manufacturer]](https://www.facebook.com/share/p/kNRkVsNy1kjaHP5F/)
 
+### [LESSON 11.10: [MODELSSECTION]](https://www.facebook.com/share/p/bt4WeM2i37eK1qoF/)
 
+## [LESSON 13: inf Strings](https://www.facebook.com/share/p/RaAiQHvZiYAQMhPf/)
+
+### [LESSON 13.1: Manufacturer follow guidelines](https://www.facebook.com/share/p/Vk75tSzxkoUAP4ay/)
+
+### [LESSON 14](https://www.facebook.com/share/p/XxGWwxgcg7WvcCk3/)
+
+### [LESSON 15](https://www.facebook.com/share/p/8HMP58nRQuyKoif5/)
+
+### [LESSON 16](https://www.facebook.com/share/p/ULof8hz4eVgKK8be/)
+
+### [LESSON 17](https://www.facebook.com/share/p/tspQ5hQn2GBkWnut/)
+
+### [LESSON 18](https://www.facebook.com/share/p/mRGzD4My6wG8Y9e1/)
+
+### [LESSON 19](https://www.facebook.com/share/p/ArncdRxrLNrGFxNm/)
+
+### [LESSON 20](https://www.facebook.com/share/p/MpDnNbmxM8m1fx1T/)
+
+### [LESSON 21](https://www.facebook.com/share/p/4L1XdY2KZCHWtCPe/)
+
+### [LESSON 22](https://www.facebook.com/share/p/Atsgr6p7vD5beqMs/)
 
 ## Overview
 

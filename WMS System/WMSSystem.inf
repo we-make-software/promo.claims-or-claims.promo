@@ -1,12 +1,26 @@
 [Version]
 Signature="$Windows NT$"
-Class= System 
+Class=System
 ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider="we-make-software.com"
 CatalogFile=WMSSystem.cat
-DriverVer=07/20/2024,1.0.0.0
-PnpLockDown = 1
+DriverVer=07/20/2024,0.0.13.1
+PnpLockDown=1
 [SourceDisksNames]
 1 = "WMS System",,, "wms"
 [SourceDisksFiles]
 WMSSystem.sys=1
+[Manufacturer]
+%ManufacturerName% = ModelsSection.NTamd64_10.0.26100.0
+[ModelsSection.NTamd64_10.0.26100.0]
+%Description% = DDInstall.NTamd64, root\wms
+[DDInstall.NTamd64]
+CopyFiles=WMSSystem.sys
+AddReg=WindowsRegEditSettings
+
+[WindowsRegEditSettings]
+
+
+[Strings]
+ManufacturerName = "we-make-software.com"
+Description = "WMS System"
