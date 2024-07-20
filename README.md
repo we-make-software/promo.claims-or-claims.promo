@@ -46,7 +46,7 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ## [LESSON 10: KMDF Header](https://www.facebook.com/share/p/VtdFgpx6fThhhsKS/)
 
-## [LESSON 11: INF]
+## [LESSON 11: INF](https://www.facebook.com/share/p/wW5vvWhAdDHzpu72/)
 
 In Lesson 11 of our Informatics (INF) course, we delve into the essential frameworks for Windows driver development: UMDF (User-Mode Driver Framework) and KMDF (Kernel-Mode Driver Framework). 
 
@@ -57,7 +57,7 @@ By the end of this lesson, you'll have a solid understanding of driver developme
 
 Sure, here is the corrected and clearer version of your text:
 
-## [LESSON 11.1: INF(Version)]
+## [LESSON 11.1: INF(Version)](https://www.facebook.com/share/p/6NkaJz3jWjJez81J/)
 A member asked me to make it easier to understand.
 
 This [link](https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk) is the easiest way to start creating KMDF and UMDF drivers.
@@ -71,14 +71,14 @@ We are going to rewrite the content of these INF files so we understand them bet
 When Windows begins an installation, it will look inside the INF file. First, it looks for the version information, so we need to include the [Version] section at the beginning of the INF file. 
 After that, we need to provide some properties
  
- ## [LESSON 11.2: INF(Version.Signature)]
+ ## [LESSON 11.2: INF(Version.Signature)](https://www.facebook.com/share/p/5gRiXj37pLVxJ77A/)
 The first property is `Signature`. There are two options: `$Windows NT$` and `$Chicago$`.
 
 By default, Windows uses `$Windows NT$`. 
 
 I’m not sure why Microsoft chose this, but it has become the standard. 
 
-Here’s what the INF file will look like with the `$Windows NT$` property:
+Here’s what the INF file will look like with the `$Windows NT$` property: 
 
 ```inf
 [Version]
@@ -86,7 +86,149 @@ Signature = "$Windows NT$"
 ```
 
 
+## [LESSON 11.3: INF (Version.Class & Version.ClassGuid)](https://www.facebook.com/share/p/VLABxftCVSUa1GJ7/)
 
+In Windows, we have `Class` and `ClassGuid`. I don’t know why Windows has made these two properties, but it seems like they want you to confirm what you're making.
+
+The values can be different depending on what you want to create. Use this link to find the appropriate values: [System-Defined Device Setup Classes Available to Vendors](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors).
+
+For example, I’m going to use the `System` class:
+
+```inf
+Class = System
+ClassGuid = {4d36e97d-e325-11ce-bfc1-08002be10318}
+```
+
+To open Device Manager, you can use the following command: `devmgmt.msc` in the Run dialog (press **Windows + R** to open the Run command). When you open Device Manager, you can see most of the devices listed there.
+
+
+##  [LESSON 11.3: INF (Version.Provider)](https://www.facebook.com/share/p/ziRdbMtMjq5sVE8B/)
+
+The `Provider` property is required because it tells Windows who the provider of the driver is.
+
+In this case, I just set the provider to "we-make-software.com":
+
+```inf
+Provider = "we-make-software.com"
+```
+##  [LESSON 11.4: INF (Version.CatalogFile)](https://www.facebook.com/share/p/ANy9Vuw7qhVzYFMP/)
+What is a CatalogFile?
+
+A `CatalogFile` in an INF file specifies a digitally signed catalog file containing cryptographic hashes of all files in the driver package. It ensures the integrity and authenticity of the driver package by verifying that files have not been tampered with.
+
+Why Use CatalogFile in INF?
+
+- **Security**: Prevents installation of tampered or malicious drivers.
+- **Trust**: Confirms the driver comes from a legitimate source.
+- **Compliance**: Often required for WHQL certification.
+
+ Example:
+
+```inf
+[Version]
+Signature = "$Windows NT$"
+Class = System
+ClassGuid = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider = "we-make-software.com"
+CatalogFile = mydriver.cat
+```
+
+Architecture-Specific Catalog Files
+
+The `CatalogFile` directive can be specified for different architectures to ensure compatibility and proper verification across various system types. This is the default way to ensure the driver is verified on all supported platforms. The directives look like this:
+
+```inf
+CatalogFile.nt=unique-filename.cat
+CatalogFile.ntx86=unique-filename.cat
+CatalogFile.ntia64=unique-filename.cat
+CatalogFile.ntamd64=unique-filename.cat
+CatalogFile.ntarm=unique-filename.cat
+CatalogFile.ntarm64=unique-filename.cat
+```
+
+These directives allow different catalog files to be specified for different system architectures, ensuring the driver package is correctly verified on all supported platforms.
+
+For more detailed information, refer to the [INF Version Section](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/inf-version-section) page on the Microsoft documentation website.
+
+##  [LESSON 11.5: INF (Version.DriverVer)](https://www.facebook.com/share/p/vu1KwdVRRfRS4RVW/)
+
+What is DriverVer?
+
+The `DriverVer` directive in an INF file specifies the driver version and the date of the driver package. This information helps Windows determine the version of the driver and whether it is newer than an existing driver installed on the system.
+
+Why Use DriverVer in INF?
+
+- **Version Control**: Helps in managing different versions of the driver.
+- **Installation Decisions**: Windows uses the `DriverVer` date and version number to decide if the driver being installed is newer than the existing one.
+- **Compliance**: Ensures that driver packages meet the requirements for proper versioning and updates.
+
+Example:
+
+Here is how the `DriverVer` directive looks in an INF file:
+
+```inf
+[Version]
+Signature = "$Windows NT$"
+Class = System
+ClassGuid = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider = "we-make-software.com"
+CatalogFile = mydriver.cat
+DriverVer=31/12/2030,1.0.0.0
+```
+
+In this example:
+- `07/01/2023` is the date when the driver was created or last updated.
+- `1.0.0.0` is the version number of the driver.
+
+Importance of DriverVer:
+
+1. **Update Management**: Ensures that the latest driver version is installed, which can include important updates and fixes.
+2. **Compatibility**: Helps in maintaining compatibility with various versions of Windows by specifying exact versioning.
+3. **Troubleshooting**: Assists in troubleshooting by providing clear version information.
+
+Further Reading:
+
+For more detailed information about the `DriverVer` directive and how it is used in INF files, refer to the [INF Version Section](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/inf-version-section) page on the Microsoft documentation website.
+
+
+##  [LESSON 11.6: INF (Version.PnpLockDown)](https://www.facebook.com/share/p/AZmDveoQyGGTcMHg/)
+What is PnpLockDown?
+
+The `PnpLockDown` directive in an INF file is used to enhance the security of Plug and Play (PnP) device installations by restricting the installation and updating of certain drivers to only those that have been signed by a trusted certificate. This ensures that only verified and trusted drivers can be installed, reducing the risk of malicious or unstable drivers being used on the system.
+
+Why Use PnpLockDown in INF?
+
+- **Security**: Ensures that only drivers signed by a trusted certificate are installed, protecting the system from potentially harmful drivers.
+- **Control**: Gives administrators the ability to lock down the installation process, ensuring compliance with organizational policies.
+- **Integrity**: Maintains the integrity of the system by preventing unauthorized or unverified drivers from being installed or updated.
+
+Example:
+
+Here is an example of how the `PnpLockDown` directive might be used in an INF file:
+
+```inf
+[Version]
+Signature = "$Windows NT$"
+Class = System
+ClassGuid = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider = "we-make-software.com"
+CatalogFile = mydriver.cat
+DriverVer = 07/01/2023,1.0.0.0
+PnpLockDown = 1
+```
+
+In this example:
+- `PnpLockDown = 1` enables the lockdown feature, ensuring that only signed drivers from a trusted source can be installed.
+
+Importance of PnpLockDown:
+
+1. **Enhanced Security**: By locking down the PnP process, it minimizes the risk of installing unsigned or malicious drivers.
+2. **Compliance**: Helps organizations adhere to security policies by enforcing strict driver installation rules.
+3. **System Integrity**: Prevents unauthorized changes to the driver setup, maintaining the system’s stability and reliability.
+
+Further Reading:
+
+For more detailed information about the `PnpLockDown` directive and how it is used in INF files, refer to the [INF Version Section](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/inf-version-section) page on the Microsoft documentation website.
 
 
 ## Overview

@@ -1,0 +1,8 @@
+[Version]
+Signature="$Windows NT$"
+Class= System 
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider="we-make-software.com"
+CatalogFile=WMSSystem.cat
+DriverVer=20/07/2024,1.0.0.0
+PnpLockDown = 1
