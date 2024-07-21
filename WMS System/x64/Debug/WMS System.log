@@ -1,4 +1,8 @@
 ﻿  Building 'WMS System' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSSystem.inf
-  Stamping [Version] section with DriverVer=07/20/2024,12.47.27.30
-D:\promo.claims-or-claims.promo\WMS System\WMSSystem.inf : error 1297: Device driver does not install on any devices, use primitive driver if this is intended.
+  Stamping [Version] section with DriverVer=07/21/2024,9.26.55.565
+D:\promo.claims-or-claims.promo\WMS System\WMSSystem.inf(23-23): warning 2010: Section [ModelsSection.NTamd64_10.0.26100.0] should have '.NTx86' decoration.
+D:\promo.claims-or-claims.promo\WMS System\WMSSystem.inf(26-26): warning 2084: Service binary '.\WMSSystem.sys' should reference a CopyFiles destination file.
+  .c
+WdfDriverEntry.lib(stub.obj) : error LNK2019: unresolved external symbol DriverEntry referenced in function FxDriverEntryWorker
+D:\promo.claims-or-claims.promo\x64\Debug\WMSSystem.sys : fatal error LNK1120: 1 unresolved externals

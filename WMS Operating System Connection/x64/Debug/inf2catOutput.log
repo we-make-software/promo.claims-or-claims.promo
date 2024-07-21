@@ -1,0 +1,10 @@
+Inf2Cat Tool Output:
+........................
+Signability test failed.
+
+Errors:
+22.9.1: wmssystem.sys in [wmssystemcopyfiles] of WMS Operating System Connection\wmsoperatingsystemconnection.inf is missing or cannot be decompressed from source media.  Please verify all path values specified in SourceDisksNames, SouceDisksFiles, and CopyFiles sections resolve to the actual location of the file, and are expressed in terms relative to the location of the inf.
+WMS Operating System Connection\wmsoperatingsystemconnection.inf does not have NTAMD64 decorated model sections.
+
+Warnings:
+None

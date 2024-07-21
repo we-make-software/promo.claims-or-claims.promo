@@ -1,5 +1,25 @@
 ﻿  Building 'WMS Operating System Connection' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSOperatingSystemConnection.inf
-  Stamping [Version] section with DriverVer=07/20/2024,12.35.50.320
-D:\promo.claims-or-claims.promo\WMS Operating System Connection\WMSOperatingSystemConnection.inf : error 1297: Device driver does not install on any devices, use primitive driver if this is intended.
-D:\promo.claims-or-claims.promo\WMS Operating System Connection\WMSOperatingSystemConnection.inf(16-16): warning 2083: Section [installsection.ntamd64] not referenced or used.
+  Stamping [Version] section with DriverVer=07/21/2024,9.30.15.517
+D:\promo.claims-or-claims.promo\WMS Operating System Connection\WMSOperatingSystemConnection.inf(33-33): warning 2083: Section [serviceinstallsection] not referenced or used.
+D:\promo.claims-or-claims.promo\WMS Operating System Connection\WMSOperatingSystemConnection.inf(42-42): warning 2083: Section [serviceinstallsection.windowsregeditsettings] not referenced or used.
+  .cpp
+  WMS Operating System Connection.vcxproj -> D:\promo.claims-or-claims.promo\x64\Debug\WMSOperatingSystemConnection.dll
+  Done Adding Additional Store
+  Successfully signed: D:\promo.claims-or-claims.promo\x64\Debug\WMSOperatingSystemConnection.dll
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\promo.claims-or-claims.promo\x64\Debug\WMS Operating System Connection\wmsoperatingsystemconnection.cat
+  Done Adding Additional Store
+  Successfully signed: D:\promo.claims-or-claims.promo\x64\Debug\WMS Operating System Connection\wmsoperatingsystemconnection.cat
+  

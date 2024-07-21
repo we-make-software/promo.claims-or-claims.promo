@@ -90,6 +90,36 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ### [LESSON 22](https://www.facebook.com/share/p/Atsgr6p7vD5beqMs/)
 
+### [LESSON 23](https://www.facebook.com/share/p/ERWrTdUjBSHZpWtG/)
+
+### [LESSON 24](https://www.facebook.com/share/p/t7vTs8jRvsjSiREw/)
+
+### [LESSON 25](https://www.facebook.com/share/p/Byag2kWkZbsqVYmi/)
+
+### [LESSON 26](https://www.facebook.com/share/p/rXsA6bsHV9NfoFb3//)
+
+### [LESSON 26](https://www.facebook.com/share/p/6yqbPwxrnAhcE7ck/)
+
+### [LESSON 27](https://www.facebook.com/share/p/vdHzGgo7nqnaidgD/)
+
+### [LESSON 28](https://www.facebook.com/share/p/BjgaUNxZvbE7QGdU/)
+
+### [LESSON 29](https://www.facebook.com/share/p/CwjUBPNJsCXwfk9s/)
+
+### [LESSON 30](https://www.facebook.com/share/p/SSD6ctJqVXGGK32h/)
+
+### [LESSON 31](https://www.facebook.com/share/p/DrYh1t6sEroPXShd/)
+
+### [LESSON 32](https://www.facebook.com/share/p/UFhM5poUymCMPfC7/)
+
+### [LESSON 33](https://www.facebook.com/share/p/Lj19XchQuCtHbfno/)
+
+### [LESSON 34](https://www.facebook.com/share/p/h7azMznVUoFxr5uX/)
+
+### [LESSON 35](https://www.facebook.com/share/p/bMPExrCsP6hkbpu5/)
+
+### [LESSON 36](https://www.facebook.com/share/p/yrYDw7JEt8fiZk7R/)
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.
@@ -97,9 +127,11 @@ we-make-software.com provides a platform for developers to collaborate on open-s
 
 ## WMS Operating System Connection
 
-"WMS Operating System Connection" is a UMDF2 (User-Mode Driver Framework version 2) project designed to interface with the operating system. 
-The project is developed under the acronym "WMS," which stands for "We Make Software." 
-This driver operates in user mode, providing enhanced system stability and security by isolating driver operations from the kernel mode.
+"WMS Operating System Connection" is a UMDF2 (User-Mode Driver Framework version 2) project designed to interface with the operating system. The project is developed under the acronym "WMS," which stands for "We Make Software." This driver operates in user mode, providing enhanced system stability and security by isolating driver operations from the kernel mode.
+
+This project is well-structured and contains a header file with the extension .h and a source file with the extension .cpp. The header file can be reused in other projects that need to run UMDF2. The source file, written in C++, contains the main implementation of the driver.
+
+The reason for using the .cpp extension is that in the Windows operating system, the development environment is based on C++.
 
 ## WMS System
 
@@ -168,3 +200,10 @@ If you don't understand a lesson, let us know, and we will try to make it more d
 For questions or suggestions about the project, feel free to contact us through our [Facebook group](https://www.facebook.com/groups/promoclaimsorclaimspromo/).
 
 Thank you for your interest in we-make-software.com! Happy coding!
+
+
+# [Notes]
+
+It's like we need to remember that to build a perfect AI, we need to have a trigger that can initiate changes in comments. This way, the AI can improve comments by modifying them, making them more relevant and engaging. By implementing such a mechanism, we can ensure that the AI continually enhances its responses, learning from interactions and adapting to provide better content. 
+
+Also, I noted that we need to add some delay for responses so it will look more human-like. This will make it seem like a real person is responding

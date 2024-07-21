@@ -4,22 +4,47 @@ Class=System
 ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider="we-make-software.com"
 CatalogFile=WMSSystem.cat
-DriverVer=07/20/2024,0.0.13.1
+DriverVer=07/20/2024,2.33
 PnpLockDown=1
+
 [SourceDisksNames]
-1 = "WMS System",,, "wms"
+1 = "WMS System",,, ""
+
 [SourceDisksFiles]
 WMSSystem.sys=1
+
+[DestinationDirs]
+DefaultDestDir = %13%
+
+
 [Manufacturer]
 %ManufacturerName% = ModelsSection.NTamd64_10.0.26100.0
+
 [ModelsSection.NTamd64_10.0.26100.0]
 %Description% = DDInstall.NTamd64, root\wms
+
 [DDInstall.NTamd64]
-CopyFiles=WMSSystem.sys
+CopyFiles=WMSSystemCopyFiles
 AddReg=WindowsRegEditSettings
 
-[WindowsRegEditSettings]
+[WMSSystemCopyFiles]
+WMSSystem.sys
 
+[WindowsRegEditSettings]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,WMSSystem.sys
+HKR,,KmdfService,,"WMSSystem"
+HKR,,KmdfServiceVersion,,"2.33"
+
+[DDInstall.NTamd64.Services]
+AddService=WMSSystem,2,ServiceInstallSection
+
+[ServiceInstallSection]
+DisplayName    = "WMS System Driver"
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\WMSSystem.sys
 
 [Strings]
 ManufacturerName = "we-make-software.com"
