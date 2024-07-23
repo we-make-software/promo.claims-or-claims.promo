@@ -4,7 +4,7 @@ Class=System
 ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider="we-make-software.com"
 CatalogFile=WMSSystem.cat
-DriverVer = 07/21/2024,9.26.55.565
+DriverVer = 07/21/2024,21.32.39.24
 PnpLockDown=1
 
 [SourceDisksNames]

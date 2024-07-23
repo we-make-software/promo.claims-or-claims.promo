@@ -1,26 +1,28 @@
 #include ".h"
+
 VOID EvtDriverUnload(_In_ WDFDRIVER Driver){
-    
+    UNREFERENCED_PARAMETER(Driver);
+    DbgPrint("EvtDriverUnload");
 }
-NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING RegistryPath)
+ NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING RegistryPath)
 {
-    WDF_DRIVER_CONFIG config;
-    WDF_DRIVER_CONFIG_INIT(&config, WDF_NO_EVENT_CALLBACK);
-    config.EvtDriverUnload = EvtDriverUnload;
-
-    NTSTATUS status;
-
-
-
-    status = WdfDriverCreate(DriverObject,
-        RegistryPath,
-        WDF_NO_OBJECT_ATTRIBUTES,
-        &config,
-        WDF_NO_HANDLE);
-    if (!NT_SUCCESS(status))
+    WDFDRIVER _WDFDriver;
     {
-        KdPrint(("WdfDriverCreate failed with status 0x%x\n", status));
-    }
+        WDF_DRIVER_CONFIG config;
+        WDF_DRIVER_CONFIG_INIT(&config, WDF_NO_EVENT_CALLBACK);
 
-    return status;
+        // Set the unload event callback.
+        config.EvtDriverUnload = EvtDriverUnload;
+
+        // Create the WDF driver object.
+        WdfDriverCreate(DriverObject,
+            RegistryPath,
+            WDF_NO_OBJECT_ATTRIBUTES,
+            &config,
+            &_WDFDriver);
+    }
+    DbgPrint("DriverEntry");
+    // Additional setup using _WDFDriver can be done here...
+
+    return STATUS_SUCCESS;
 }

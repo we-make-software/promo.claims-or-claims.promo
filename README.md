@@ -120,6 +120,50 @@ Welcome to the we-make-software.com project repository on GitHub! This platform 
 
 ### [LESSON 36](https://www.facebook.com/share/p/yrYDw7JEt8fiZk7R/)
 
+### [LESSON 37](https://www.facebook.com/share/p/qo28iby7nVB2j5uH/)
+
+### [LESSON 38](https://www.facebook.com/share/p/HP5Dq2SnYAXUZoH8/)
+
+### [LESSON 39](https://www.facebook.com/share/p/AWJhacPpMxSjmUys/)
+
+### [LESSON 40](https://www.facebook.com/share/p/ZSynid8LdnZ7rkBD/)
+
+### [LESSON 41](https://www.facebook.com/share/p/DJu3BmesdWzgHcxu/)
+
+### [LESSON 42](https://www.facebook.com/share/p/csERaay7BGVAj1gS/)
+
+### [LESSON 43](https://www.facebook.com/share/p/9uFCBpsZWuUsdP3G/)
+
+### [LESSON 44](https://www.facebook.com/share/p/8ybGvsxQPZKqXRwy/)
+
+### [LESSON 45](https://www.facebook.com/share/p/KX8twftbLGrH7Gqk/)
+
+### [LESSON 46](https://www.facebook.com/share/p/pr2WnPzoKqAeVcEQ/)
+
+### [LESSON 47](https://www.facebook.com/share/p/hiySA2JxF1p1aHjo/)
+
+### [LESSON 48](https://www.facebook.com/share/p/q17iin5PEbAA45E3/)
+
+### [LESSON 49](https://www.facebook.com/share/p/jGzYEV8VcoP5xJKJ/)
+
+### [LESSON 50](https://www.facebook.com/share/p/HKtBgQewCBK6aYQF/)
+
+### [LESSON 51](https://www.facebook.com/share/p/17orjDz8zLD5tL1p/)
+
+### [LESSON 52](https://www.facebook.com/share/p/aoWN3vHZGTjc7Uu2/)
+
+### [LESSON 53](https://www.facebook.com/share/p/VxAqyP6frf7WVQxN/)
+
+### [LESSON 54](https://www.facebook.com/share/p/ncj8LxLCzJiQSY9y/)
+
+### [LESSON 55](https://www.facebook.com/share/p/MxsNHYQMSShs5yRq/)
+
+### [LESSON 56](https://www.facebook.com/share/p/TLHpX3bzeswhEDTe/)
+
+
+
+# [COMBINED TEST QUESTIONS 1 - LESSON 22 TO 36](https://www.facebook.com/share/p/VP1J4FL9S99S6sV6/)
+
 ## Overview
 
 we-make-software.com provides a platform for developers to collaborate on open-source projects in the C programming language. Whether you're new to programming or an experienced developer, this repository welcomes all contributions that align with our goal of promoting software development excellence.

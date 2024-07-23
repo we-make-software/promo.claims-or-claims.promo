@@ -19,6 +19,8 @@
     <VerifyDrivers />
     <VerifyFlags>133563</VerifyFlags>
     <TestCertificate>CN="WDKTestCert Administrator,133659876143388598" | 703E71520C3B24FC554F3E46C3D206C1E5E7C190</TestCertificate>
+    <DbgengRemoteCommand>$(TargetPath)</DbgengRemoteCommand>
+    <DbgengRemoteWorkingDirectory>.\x64\Debug</DbgengRemoteWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <DbgengRemoteMachineName>TestServer</DbgengRemoteMachineName>

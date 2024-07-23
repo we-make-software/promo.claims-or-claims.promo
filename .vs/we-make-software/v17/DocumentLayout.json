@@ -7,36 +7,16 @@
       "RelativeMoniker": "D:0:0:{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|Solution Items{16D9ECFB-150F-4F7A-B29D-F5718AAFDC7A}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|solutionrelative:WMS Operating System Connection\\WMSOperatingSystemConnection.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|solutionrelative:WMS Operating System Connection\\.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|solutionrelative:WMS Operating System Connection\\.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{67435081-D8DA-4A84-8273-1A17BAF14F93}|WMS Operating System Connection\\WMS Operating System Connection.vcxproj|solutionrelative:WMS Operating System Connection\\WMSOperatingSystemConnection.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Driver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|solutionrelative:UMDF 2 Driver1\\Driver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|solutionrelative:UMDF 2 Driver1\\Public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Driver.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|solutionrelative:UMDF 2 Driver1\\Driver.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Device.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|solutionrelative:UMDF 2 Driver1\\Device.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Trace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{599FF144-2A3A-4BC7-96C9-7E1BF2FC9CF4}|UMDF 2 Driver1\\UMDF 2 Driver1.vcxproj|solutionrelative:UMDF 2 Driver1\\Trace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15509FB2-A016-4F14-AE73-A8B63053649B}|WMS System\\WMS System.vcxproj|D:\\promo.claims-or-claims.promo\\WMS System\\WMSSystem.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -55,6 +35,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared\\warning.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\wdf\\umdf\\2.33\\wdfdriver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,7 +47,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,81 +59,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Driver.h",
-              "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Driver.h",
-              "RelativeDocumentMoniker": "UMDF 2 Driver1\\Driver.h",
-              "ToolTip": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Driver.h",
-              "RelativeToolTip": "UMDF 2 Driver1\\Driver.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvx4AAAARAAAA",
+              "DocumentIndex": 9,
+              "Title": "wdfdriver.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\wdf\\umdf\\2.33\\wdfdriver.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\wdf\\umdf\\2.33\\wdfdriver.h",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAjwOoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-21T09:19:09.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T16:21:45.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Driver.c",
-              "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Driver.c",
-              "RelativeDocumentMoniker": "UMDF 2 Driver1\\Driver.c",
-              "ToolTip": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Driver.c",
-              "RelativeToolTip": "UMDF 2 Driver1\\Driver.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-21T09:18:59.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Trace.h",
-              "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Trace.h",
-              "RelativeDocumentMoniker": "UMDF 2 Driver1\\Trace.h",
-              "ToolTip": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Trace.h",
-              "RelativeToolTip": "UMDF 2 Driver1\\Trace.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-21T09:12:24.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Public.h",
-              "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Public.h",
-              "RelativeDocumentMoniker": "UMDF 2 Driver1\\Public.h",
-              "ToolTip": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Public.h",
-              "RelativeToolTip": "UMDF 2 Driver1\\Public.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-21T09:12:23.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Device.h",
-              "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Device.h",
-              "RelativeDocumentMoniker": "UMDF 2 Driver1\\Device.h",
-              "ToolTip": "D:\\promo.claims-or-claims.promo\\UMDF 2 Driver1\\Device.h",
-              "RelativeToolTip": "UMDF 2 Driver1\\Device.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-21T09:12:16.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": ".h",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.h",
               "RelativeDocumentMoniker": "WMS Operating System Connection\\.h",
-              "ToolTip": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.h",
-              "RelativeToolTip": "WMS Operating System Connection\\.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ToolTip": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.h \u2B24",
+              "RelativeToolTip": "WMS Operating System Connection\\.h \u2B24",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-21T07:53:07.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T07:53:07.621Z"
             },
             {
               "$type": "Document",
@@ -160,14 +87,14 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\promo.claims-or-claims.promo\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAiwHgAAAAPAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAwJoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-07-18T20:37:38.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "WMSSystem.inf",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS System\\WMSSystem.inf",
               "RelativeDocumentMoniker": "WMS System\\WMSSystem.inf",
@@ -175,38 +102,35 @@
               "RelativeToolTip": "WMS System\\WMSSystem.inf",
               "ViewState": "AQIAAAYAAAAAAAAAAAAiwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
-              "WhenOpened": "2024-07-18T20:31:10.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T20:31:10.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "WMSOperatingSystemConnection.inf",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
               "RelativeDocumentMoniker": "WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
               "ToolTip": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
               "RelativeToolTip": "WMS Operating System Connection\\WMSOperatingSystemConnection.inf",
-              "ViewState": "AQIAABcAAAAAAAAAAAAiwDMAAAA9AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
-              "WhenOpened": "2024-07-18T20:30:22.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T20:30:22.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": ".cpp",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.cpp",
               "RelativeDocumentMoniker": "WMS Operating System Connection\\.cpp",
               "ToolTip": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\.cpp",
               "RelativeToolTip": "WMS Operating System Connection\\.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T19:59:36.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T19:59:36.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "inf2catOutput.log",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS Operating System Connection\\x64\\Debug\\inf2catOutput.log",
               "RelativeDocumentMoniker": "WMS Operating System Connection\\x64\\Debug\\inf2catOutput.log",
@@ -214,12 +138,11 @@
               "RelativeToolTip": "WMS Operating System Connection\\x64\\Debug\\inf2catOutput.log",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-20T22:17:16.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T22:17:16.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": ".c",
               "DocumentMoniker": "D:\\promo.claims-or-claims.promo\\WMS System\\.c",
               "RelativeDocumentMoniker": "WMS System\\.c",
@@ -227,12 +150,11 @@
               "RelativeToolTip": "WMS System\\.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-18T19:58:15.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T19:58:15.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "suppress.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared\\suppress.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared\\suppress.h",
@@ -242,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "warning.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared\\warning.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared\\warning.h",

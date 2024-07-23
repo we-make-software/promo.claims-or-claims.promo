@@ -1,6 +1,6 @@
 ﻿  Building 'WMS System' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\WMSSystem.inf
-  Stamping [Version] section with DriverVer=07/21/2024,9.26.55.565
+  Stamping [Version] section with DriverVer=07/21/2024,21.32.39.24
 D:\promo.claims-or-claims.promo\WMS System\WMSSystem.inf(23-23): warning 2010: Section [ModelsSection.NTamd64_10.0.26100.0] should have '.NTx86' decoration.
 D:\promo.claims-or-claims.promo\WMS System\WMSSystem.inf(26-26): warning 2084: Service binary '.\WMSSystem.sys' should reference a CopyFiles destination file.
   .c
